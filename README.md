@@ -15,7 +15,7 @@ This repository contains some scripts with logic to calculate probability for at
 Probability to win the attak:
 
 
-<img src="https://render.githubusercontent.com/render/math?math=D1*\sum_{i=D1_{min}}^{D1_{max}}p(D2 < i)" />
+<img src="https://render.githubusercontent.com/render/math?math=(1/D1_{max})*\sum_{i=D1_{min}}^{D1_{max}}p(D2 < i)" />
 
 Probability to roll less than:
 
@@ -25,4 +25,4 @@ Probability to roll less than:
 Probability to roll exactly:
 
 
-<img src="https://render.githubusercontent.com/render/math?math=p(D2==j)=\left\{\begin{matrix}0,%26%26D2_{max}<j||j<D2_{min}\\1/D2%26%26\end{matrix}\right." />
+<img src="https://render.githubusercontent.com/render/math?math=p(D2=j)=\left\{\begin{matrix}0,%26%26D2_{max}<j||j<D2_{min}\\1/D2_{max}%26%26\end{matrix}\right." />
